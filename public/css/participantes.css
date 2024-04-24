@@ -1,0 +1,106 @@
+.menu-participantes {
+  border-radius: 20px;
+  padding-top: 0;
+  padding-inline: 0px;
+  border: 1px solid black;
+  position: fixed;
+  width: 290px;
+  height: 300px;
+  z-index: 5;
+  overflow: auto;
+}
+
+div.navigation-bar {
+  background-color: gray;
+  padding-inline: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.navigation-bar input {
+  border-radius: 20px;
+  background-color: gray;
+  font-size: 25px;
+  border: 2px solid black;
+}
+
+.navigation-icons {
+  padding-top: 2px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.botonespart {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  justify-content: center;
+  cursor: move;
+}
+
+.botonespart button {
+  border-radius: 20px;
+  border: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.user-icon {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.user-icon i {
+  margin-left: 10px;
+}
+
+.user-icon i.fa-square {
+  text-align: end;
+}
+.user-icon {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.user-icon i {
+  margin-left: 10px;
+}
+
+.user-icon i.fa-square {
+  text-align: end;
+}
+
+.fa-search {
+  cursor: pointer;
+}
+
+.fa-filter {
+  cursor: pointer;
+}
+
+.fa-check-square {
+  cursor: pointer;
+}
+
+.fa-square {
+  cursor: pointer;
+}
+
+.addpar {
+  font-size: 20px;
+}

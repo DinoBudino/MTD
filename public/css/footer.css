@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+}
+
+footer h1{
+    text-align: center;
+    font-weight: 3;
+}
+
+footer h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+footer p{
+    font-weight: 250;
+}
+
+.contactanos{
+    margin-left: 200px;
+}
+
+.contacto-item{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactanoslogos{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.contactanostexto{
+    margin-left: 10px;
+    padding-top: 6px;
+    font-size: 25px;
+}
+
+.logos{
+    margin-left: 64px;
+    margin-right: 30px;
+}
+
+.lema{
+    padding-left: 150px;
+    font-size: 14px;
+}
+
+.logos i{
+    display: inline-block;
+    margin-inline: 25px;
+}
+
+.fa-facebook-f{
+    font-size: 40px;
+    cursor: pointer;
+}
+.fa-square-instagram{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-tiktok{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-square-x-twitter{
+    font-size: 40px;
+    cursor: pointer;
+}

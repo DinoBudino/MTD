@@ -1,0 +1,172 @@
+.actividadestabla h1{
+    display: flex;
+}
+
+.columnasparticipantes{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.botoncreara{
+    margin-top: 40px;
+}
+
+.botoncreara button{
+    background-color: #92297C;
+    border: 0;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    padding-inline: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.participantestexto{
+    display: flex;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.participantestexto span{
+    display: flex;
+    padding-top: 10px;
+}
+
+.participantestexto h1{
+    font-size: 50px;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: #3DB6B1;
+    text-decoration: underline;
+}
+
+.participantestexto i{
+    font-size: 65px;
+    margin-left: 15px;
+}
+
+.participantestexto i.fa-square-plus{
+    font-size: 50px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.columnastitulos{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-inline: 15px;
+    margin-bottom: 15px;
+}
+
+.columnastitulos th{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.columnastitulos th i{
+    margin-inline: 10px;
+    font-size: 25px;
+}
+
+.columnastitulos th p{
+    font-size: 40px;
+}
+
+table{
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px 20px 20px 20px;
+    width: 98%;
+    height: 858px;
+}
+
+.tablacontenidos{
+    height: 650px;
+}
+
+tr.tablacontenidos{
+    outline: 3px solid black ;
+    border-radius: 5px;
+    margin-inline: 20px;
+}
+
+.actividades details summary{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.estadoactividad{
+    padding: 15px 5px 5px 5px;
+    border-left: 2px solid black;
+    margin-top: -11px;
+    margin-bottom: -11px;
+}
+
+.estadoactividad h2{
+    font-size: 25px;
+}
+
+h2.estado{
+    padding-top: 5px;
+    margin-left: 25px;
+}
+
+.actividades details{
+    border-bottom: 2px solid black;
+}
+
+.actividades details summary h1{
+    text-align: start;
+    padding-top: 12px;
+    font-size: 25px;
+}
+
+.actividades details summary{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+th.actividades{
+    vertical-align: baseline;
+}
+
+.estadoactividad h2[data-estado="C"] {
+    color: #05FF00;
+}
+
+.estadoactividad h2[data-estado="E"] {
+    color: orange;
+}
+
+.estadoactividad h2[data-estado="P"] {
+    color: red;
+}
+
+.contentsumm{
+    border-top: 2px solid   black;
+    margin-inline: -4px;
+}
+
+.actividades details h3{
+    font-size: 25px;
+    text-align: start;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.actividades details p{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,70 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 17% 83%;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h1 i{
+    margin-left: 120px;
+    font-size: 30px;
+}
+
+ul.areaslista{
+    display: flex;
+    flex-direction: column;
+}
+
+.areaslista {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 270px;
+    height: 800px;
+    padding-left: 0;
+}
+
+.areas button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    background-color: #ff666680;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+    text-align: start;
+    padding-block: 7px; 
+    font-size: 20px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+}
+
+div.iconbuttons{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.fa-x{
+    margin-left: 5px;
+}
+
+.areas i{
+    cursor: pointer;
+}
+
+.areas h1{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.areas,
+.actividadesgeneral {
+    flex: 1;
+}
+

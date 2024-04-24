@@ -1,0 +1,104 @@
+body{
+    background-image: url(../img/bannerMTD.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: "League Spartan", sans-serif;
+    padding: 0;
+    color: #fcf9f9;
+}
+
+.rectangulo {
+    background-color: #1fbcd3;
+    width: 300px;
+    height: 660px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rectangulo::after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-right: 800px solid transparent;
+    border-bottom: 200px solid #ED117F;
+}
+
+.logo {
+    width: 100px; /* Tamaño del logo */
+    display: block;
+    margin: 0 auto 20px; /* Centra y agrega espacio debajo del logo */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ffffff; /* Línea blanca */
+    box-sizing: border-box;
+    background: transparent; /* Fondo transparente */
+    color: #ffffff; /* Letras blancas */
+    outline: none; /* Elimina el contorno del input */
+}
+
+.linea {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff; /* Línea blanca */
+}
+
+.boton-registrar {
+    background-color: #f9d423;
+    color: #ffffff;
+    border-color: #f9d423;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boton-registrar span{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+div.input-group{
+    font-weight: bold;
+    font-size: 15px;
+}

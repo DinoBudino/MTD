@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body{
+    margin-top: 109px;
+}
+
+header.navbar {
+    display: flex;
+    background-color: #92297C;
+    font-family: "League Spartan", sans-serif;
+    height: 108px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-end-end-radius:20px;
+    border-end-start-radius: 20px;
+    z-index: 5;
+    }
+
+    header.navbarlogueada {
+        display: flex;
+        background-color: #3DB6B1;
+        font-family: "League Spartan", sans-serif;
+        height: 108px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-end-end-radius:20px;
+        border-end-start-radius: 20px;
+        z-index: 2;
+        }
+
+.nav{
+    display: flex;
+}
+
+.nav-menu-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 550;
+    padding-right: 10px;
+    font-size: 25px;
+    margin-inline: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.nav-menu-link:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin-left: 25px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.logotexto{
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-menu-icon{
+    display: inline-block;
+}
+
+img.nav-menu-icon{
+    width: 30px;
+    height: 30px;
+    margin-inline: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+img.nav-menu-icon:hover{
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+img.usericon{
+    width: 30px;
+    height: 30px;
+    margin-inline: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+img.usericon:hover{
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}

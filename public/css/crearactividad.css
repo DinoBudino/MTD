@@ -1,0 +1,50 @@
+div.botonescreara {
+  display: grid;
+  margin: 5px;
+  margin-bottom: -15px;
+  grid-template-columns: 50% 50%;
+}
+
+div.botonescreara button {
+  margin: 5px;
+}
+
+div.campo {
+  display: grid;
+}
+
+div.campo label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+div.campo input {
+  margin-top: 5px;
+  height: 30px;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+
+div.campo textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.creartexto{
+    cursor: move;
+}
+
+.creartexto h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.crear-actividad{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
