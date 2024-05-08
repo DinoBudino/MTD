@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\AreasController;
+use App\Http\Controllers\AsistenciasController;
 use App\Http\Controllers\GestionUsuariosController;
+use App\Http\Controllers\MaterialController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +45,7 @@ Route::get('/areas', [AreasController::class, 'index'])->name('areas')->middlewa
 // Ruta para la página de gestión de usuarios, accesible solo por usuarios autenticados
 Route::get('/usuarios', [GestionUsuariosController::class, 'index'])->name('gestionusuarios')->middleware('auth');
 
+
+
+Route::get('/materiales', [MaterialController::class, 'index'])->name('materiales')->middleware('auth');
+Route::get('/asistencias', [AsistenciasController::class, 'index'])->name('asistencias')->middleware('auth');

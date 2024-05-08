@@ -1,0 +1,129 @@
+/* Estilos Generales */
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Estilos de Áreas */
+.areas {
+    width: 20%; /* Ajusta según necesidades */
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.areas h2, .asistencias h2 {
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+.areas .area h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px; /* Ajusta el tamaño de la fuente según necesidad */
+}
+
+.areas ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organiza los ítems en columna */
+}
+
+.areas li {
+    padding: 5px 0;
+}
+
+.areas li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.areas li a:hover {
+    background-color: #f9f9f9;
+}
+
+.areas li a:before {
+    content: "•"; /* Añade un marcador */
+    color: red; /* Color del marcador */
+    font-size: large; /* Tamaño del marcador */
+    padding-right: 10px; /* Espaciado derecho del marcador */
+}
+
+.areas .area {
+    margin-bottom: 20px; /* Espacio entre las categorías de áreas */
+}
+
+
+
+/* Estilos de Asistencias */
+.asistencias {
+    flex-grow: 1;
+    background: white;
+    padding: 20px;
+}
+
+.asistencias-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+    gap: 10px;
+}
+
+/* Estilos de Lista de Usuarios */
+.lista-usuarios {
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+.lista-usuarios div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista-usuarios div span {
+    flex: 1;
+}
+
+.lista-usuarios select {
+    width: 150px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* Estilos de Interactividad */
+#buscar-usuario {
+    flex-grow: 0; /* No permitir que crezca más allá de su ancho máximo */
+    width: auto; /* Establece el ancho basado en el contenido o un máximo específico */
+    max-width: 300px; /* Máximo ancho que puede alcanzar */
+    margin-right: 20px; /* Mantén algo de espacio entre el buscador y el botón */
+}
+
+#guardar-registro {
+    padding: 10px 20px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    background-color: #92297C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+

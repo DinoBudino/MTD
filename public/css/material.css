@@ -1,0 +1,172 @@
+.container {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.containerareas{
+    margin-top: 17px;
+}
+
+.containerareas h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+summary{
+    cursor: pointer;
+}
+
+.areas {
+    padding: 20px;
+    border: 3px solid black;
+    margin-left: 20px;
+}
+
+.areas li {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.areas li a {
+    color: black;
+    font-size: 20px;
+}
+
+.areas li a:hover {
+    background-color: #f9f9f9;
+}
+
+.areas li a:before {
+    content: "•";
+    color: red;
+    font-size: large;
+    padding-right: 10px;
+}
+
+.containermaterial{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 15px;
+    margin-right: 20px;
+}
+
+.headermaterial{
+    display: flex;
+    flex: 0 1 auto;
+    margin-bottom: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material{
+    flex: 1 1 auto;
+    border: 3px solid black;
+    overflow: auto;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.file-upload{
+    text-align: end;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    background-color: #92297C;
+    color: white;
+    padding-inline: 25px;
+    padding-block: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+label:active{
+    transform: scale(0.9);
+}
+
+.buscar input[type="search"] {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #92297C;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.buscar button {
+    padding: 8px 16px;
+    background-color: #92297C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.material div {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.material img {
+    margin-top: 10px;
+    max-width: 100px; /* Limita el tamaño de la imagen */
+    height: auto;
+}
+
+.file-preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Mantiene oculto cualquier desbordamiento de altura máxima */
+    height: auto; /* Permite que la altura se ajuste al contenido */
+    min-height: 200px; /* Establece una altura mínima para la uniformidad visual */
+}
+
+.file-preview img {
+    max-width: 100%; /* Mantiene la imagen dentro del ancho del contenedor */
+    max-height: 120px; /* Altura máxima para la imagen */
+    height: auto;
+    margin-top: 5px;
+}
+
+.file-preview p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limita el texto a tres líneas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.file-preview video {
+    width: 100%; /* Asegura que el video no exceda el contenedor */
+    height: auto; /* Mantiene la proporción del video */
+    border-radius: 5px; /* Bordes redondeados para el video */
+}
+
+.file-preview i {
+    display: block; /* Asegura que el ícono se centre correctamente */
+    color: #555; /* Color del ícono */
+    text-align: center; /* Centrado del ícono */
+    margin: 10px auto; /* Espaciado adecuado */
+}
+
+.filename-container {
+    width: 100%;
+    height: 30px; /* Altura fija para el contenedor del nombre del archivo */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

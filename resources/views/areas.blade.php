@@ -27,6 +27,8 @@
             <ul class="nav-menu">
                 <li class="nav-menu-item"><a href="{{route('areas')}}" class="nav-menu-link">AREAS</a></li>
                 <li class="nav-menu-item"><a href="{{route('gestionusuarios')}}" class="nav-menu-link">USUARIOS</a></li>
+                <li class="nav-menu-item"><a href="{{route('asistencias')}}" class="nav-menu-link">ASISTENCIAS</a></li>
+                <li class="nav-menu-item"><a href="{{route('materiales')}}" class="nav-menu-link">MATERIALES</a></li>
                 <div class="user">
                     <li class="usericon"><i href=""><img src="../img/usuarioBlleno.png" class="usericon"
                                 onclick="toggleLoginMenu()"></i></li-class>
